@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<style type="text/css">
+    html {
+        background-color: silver;
+        margin-left: 50px;
+        margin-right: 50px;
+        height: auto;
+        width: auto;
+        text-align: center;
+    }
+
+    input {
+        text-align: center;
+    }
+
+    h2 {
+        border: solid 5px black;
+        color: darkmagenta;
+    }
+
+    fieldset {
+        border: solid 5px yellow;
+        text-align: center;
+    }
+
+    #DOB {
+        width: 153px;
+    }
+
+    .game {
+        height: 10px;
+        width: 10px;
+        position: fixed;
+        bottom: 1px;
+        right: 1px;
+    }
+</style>
+
+<head>
+    <title>PHP-Assignment</title>
+</head>
+
+<body>
+    <h2>&nbsp;Student Form</h2>
+    <fieldset>
+        <form action="Validation.php" method="POST"><br>
+            <input type="text" name="e-num" id="e-num" placeholder="Enter Your Enrollment"><BR>
+            <input type="text" name="name" id="name" placeholder="Enter Your Name"><BR>
+            <input type="date" name="DOB" id="DOB"><BR>
+            <input type="text" name="num" id="num" placeholder="Enter Your Phone"><BR>
+            <input type="email" name="email" id="email" placeholder="Enter Your Email"><BR>
+            <BR><button type="submit">Submit</button>
+            <button type="submit" formaction="Deletion.php">Delete</button>
+        </form>
+    </fieldset>
+    <button class="game" onclick="startGame()">Hidden game</button>
+</body>
+
+<script>
+    function startGame() {
+        window.open('https://elgoog.im/dinosaur-game/birthday/', '_blank');
+    }
+</script>
+
+</html>
