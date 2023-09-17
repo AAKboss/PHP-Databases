@@ -1,6 +1,6 @@
 # PHP-Databases
-This was done just for my assignment for my second year at college. 
-This was just for php (as in the name)
+This was done just for my assignment for my second year at college. <br>
+This was just for php (as in the name).
 
 The order for files would be:
 1. Form Page.html
