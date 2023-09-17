@@ -4,7 +4,7 @@ This was just for php (as in the name).
 
 The order for files would be:
 1. Form Page.html<BR>
-2. VAaidation.php<BR>
+2. Validation.php<BR>
 3. View Tables.php<BR>
 4. Deletion.php<BR>
 5. DeleteRecord.php<BR>
