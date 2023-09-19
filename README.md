@@ -12,3 +12,5 @@ The order for files would be:
 7. EditRecord.php<BR>
 
 Ultimately it shouldn't matter lol. 
+
+Since I'm just a student, and not a full developer yet, I'm using a local server (Xammp) so everything should be in it's appropraite folders before running
