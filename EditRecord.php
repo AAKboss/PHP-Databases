@@ -84,7 +84,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     // Connection details
     $servername = "localhost";
     $username = "AAK";
-    $password = "Azgar Ali";
+    $password = "---------";
     $dbname = "Students";
 
     try {
