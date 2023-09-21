@@ -44,7 +44,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         //Now we do actual sql here
         $servername = "localhost";
         $username = "AAK";
-        $password = "Azgar Ali";
+        $password = "---------";
         try {
             $conn = new PDO("mysql:host=$servername;dbname=Students", $username, $password);
             $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
