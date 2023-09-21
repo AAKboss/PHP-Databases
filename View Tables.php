@@ -21,7 +21,7 @@
 <?php
 $servername = "localhost";
 $username = "AAK";
-$password = "Azgar Ali";
+$password = "---------";
 $dbname = "Students";
 
 try {
